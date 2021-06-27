@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Samirah Alhusayni\\.nuget\\packages\\": {}
+    "C:\\Users\\Reema\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samirah Alhusayni\\OneDrive\\المستندات\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub.csproj",
+      "projectUniqueName": "C:\\Users\\Reema\\source\\repos\\ASP.NET_CRUD\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub.csproj",
       "projectName": "ASP_CRUD_GitHub",
-      "projectPath": "C:\\Users\\Samirah Alhusayni\\OneDrive\\المستندات\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub.csproj",
-      "packagesPath": "C:\\Users\\Samirah Alhusayni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samirah Alhusayni\\OneDrive\\المستندات\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub\\obj\\",
+      "projectPath": "C:\\Users\\Reema\\source\\repos\\ASP.NET_CRUD\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub.csproj",
+      "packagesPath": "C:\\Users\\Reema\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Reema\\source\\repos\\ASP.NET_CRUD\\ASP_CRUD_GitHub\\ASP_CRUD_GitHub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Samirah Alhusayni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Reema\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
