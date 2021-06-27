@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{FABEF314-3F04-4617-AE9F-86E4D0FAB3B6}|Default">
   <MonoDevelop.Ide.ItemProperties.ASP__CRUD__GitHub PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ASP_CRUD_GitHub/Models/StudentModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ASP_CRUD_GitHub/Controllers/HomeController.cs">
     <Files>
       <File FileName="ASP_CRUD_GitHub/Models/StudentModel.cs" Line="11" Column="41" />
       <File FileName="ASP_CRUD_GitHub/Controllers/HomeController.cs" Line="1" Column="1" />
@@ -10,10 +10,11 @@
         <State name="__root__">
           <Node name="ASP_CRUD_GitHub" expanded="True">
             <Node name="ASP_CRUD_GitHub" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="StudentModel.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>

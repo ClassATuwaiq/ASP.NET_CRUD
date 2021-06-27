@@ -17,7 +17,8 @@ namespace ASP_CRUD_GitHub.Controllers
         List<StudentModel> students = new List<StudentModel>
             {
                 new StudentModel {Id = 1 , name ="Batool"},
-                new StudentModel {Id = 2 , name ="Reema"}
+                new StudentModel {Id = 2 , name ="Raneen"},
+                new StudentModel {Id = 3 , name ="Hanan"}
 
         };
 
