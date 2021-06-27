@@ -6,11 +6,22 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using ASP_CRUD_GitHub.Models;
 
 namespace ASP_CRUD_GitHub.Controllers
 {
+
+
     public class HomeController : Controller
     {
+        List<StudentModel> restaurants = new List<StudentModel>
+            {
+                new StudentModel {Id = 1 , name ="Batool"},
+                new StudentModel {Id = 2 , name ="Reema"}
+
+        };
+
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
