@@ -14,7 +14,7 @@ namespace ASP_CRUD_GitHub.Controllers
 
     public class HomeController : Controller
     {
-        List<StudentModel> restaurants = new List<StudentModel>
+        List<StudentModel> students = new List<StudentModel>
             {
                 new StudentModel {Id = 1 , name ="Batool"},
                 new StudentModel {Id = 2 , name ="Reema"}
@@ -32,6 +32,21 @@ namespace ASP_CRUD_GitHub.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+
+        public IActionResult Details(int? id)
+        {
+            StudentModel student = students.Find(r => r.Id == id);
+            if (student == null)
+            {
+                return Content("No student found");
+            }
+            else
+            {
+                ViewData["students"] = student;
+                return View();
+            }
         }
 
         public IActionResult Privacy()
