@@ -32,7 +32,7 @@ namespace ASP_CRUD_GitHub.Controllers
 
        public IActionResult Index()
         {
-            ViewData["Students"] = Students;
+            ViewData["Students"] = students;
             return View();
         }
 
