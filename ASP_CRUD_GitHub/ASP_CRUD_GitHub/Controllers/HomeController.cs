@@ -14,7 +14,7 @@ namespace ASP_CRUD_GitHub.Controllers
 
     public class HomeController : Controller
     {
-        List<StudentModel> restaurants = new List<StudentModel>
+        List<StudentModel> Students = new List<StudentModel>
             {
                 new StudentModel {Id = 1 , name ="Batool"},
                 new StudentModel {Id = 2 , name ="Reema"}
@@ -29,10 +29,14 @@ namespace ASP_CRUD_GitHub.Controllers
             _logger = logger;
         }
 
+        //<<Read>>
+        //Get: /
         public IActionResult Index()
         {
+            ViewData["Students"] = Students;
             return View();
         }
+
 
         public IActionResult Privacy()
         {
